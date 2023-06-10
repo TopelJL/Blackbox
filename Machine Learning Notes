@@ -1,0 +1,98 @@
+# Machine Learning
+Jaxon Topel
+6/9/23
+
+Techniques:
+
+Supervised Learning:
+Looks at previous data (Intput) → Model (Machine) → Predictions (Output)
+If error, compares given dataset too output and adjusts model to get closer to the dataset
+Deep Learning:
+Neural Networks:
+Can use labeled and unlabeled data
+Semi supervised learning
+Trained on some label data (Used to train the model on the task), large amounts of unlabeled data (used to generalize new examples).
+Gen AI: uses neural networks, semisupervised
+Generative models - can create new instances
+Generative Image model:
+Generates Images.
+Generative Language mode:
+Generates text.
+Discriminative models - Discriminate between different types of data instances, good for predicting. WILL MOST LIKELY USE THIS FORM OF DATA FOR PREDICTION CODE.
+Unsupervised Learning:
+Look at raw data and compare to look for any similarities.
+Transformers:
+Lots of data, Unsupervised Learning
+Input - Encoding component → Pre-Trained Model → Output
+
+Hallucinations: Errors
+
+Causes:
+Not trained on enough data
+Model is trained on bad data
+Not given enough context
+Not given enough constraints
+
+Extra Notes:
+Prompt design: Quality of the input determines the quality of the output.
+Model types:
+Text-to-text
+Text-to image: short text description
+Text-to video/3-D
+Text-to task: machine takes some sort of action based upon input.
+Foundation Model:
+Lots of data.
+Designed to be fine tuned.
+Will do a lot of tasks, have potential to revolutionize industries.
+Stable diffusion is good for generating high quality images from text description.
+
+Good Tips:
+
+Library for pre trained models:
+https://aclanthology.org/2022.emnlp-demos.42.pdf
+Tools for fine tuning models
+Tools for deploying models
+Generative AI App builder creates generative AI apps without writing any code
+PALM API with makerSuite: Use it to access api using a graphical user interface
+Model training tool:
+ Train models on data using algorithms
+Deployment tool:
+Helps deploy ml models to production
+Many options
+ Monitoring tool:
+Monitor performance of ML models in production using dashboards (Grafana is a good one)
+Google Chrome:
+
+Introduction To large Language Models
+Define Large Language Models (LLMs)
+Subsets of Deep Learning both LLM and Gen AI are a part of Deep Learning.
+General purpose language models that can be pre trained and fine tuned for specific purposes.
+LLM’s are trained to solve problems like:
+Text Classification, Question Answering, Document summarization, Text Generation.
+Use datasets to train Models in context to solve specific problems.
+Large means the model is trained on a lot of data.
+Parameters define skill of the problem.
+General purpose means can solve a large variety of problems
+Needs a tremendous amount of data.
+LLMs are pre trained and fine tuned.
+Benefits:
+Single model can be used for different tasks.
+Fine tune process requires minimal field data.
+Performance is continuously growing with more data and parameters.
+PaLM - Pathways Language model
+540 billion parameters.
+Transformer model.
+Encoding Component (Input).
+Decoding Component (Output).
+Can handle many tasks at once, learn new tasks quickly.
+LLM Development: Using pre-trained api’s
+Think about prompt design.
+No ML Expertise needed.
+EASY
+Prompt Engineering:
+Prompt design is more general, prompt engineering is necessary for good performance.
+Fine tuning is expensive, Parameter efficient tuning methods are easier with parameters
+Generative AI Studio: https://cloud.google.com/free
+Build Apps without writing any code
+User can build with natural language
+PaLM API & MakerSuite use to access graphical interface, has lots of tools.
